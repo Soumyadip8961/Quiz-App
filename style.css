@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&family=Poppins&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, rgb(87, 87, 201), rgb(82, 14, 145));
+}
+
+#appContainer {
+    width: 100%;
+    max-width: 600px;
+    background-color: white;
+    margin: 100px auto;
+    border-radius: 16px;
+    padding: 20px;
+}
+
+h1 {
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    font-size: 26px;
+}
+
+#questionElem {
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    border: 1px solid black;
+    outline: 0;
+    width: 90%;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    text-align: left;
+    color: black;
+    margin: 10px 10px;
+    cursor: pointer;
+}
+
+.btn:hover:not(:disabled) {
+    background-color: black;
+    color: white;
+}
+
+.btn:disabled {
+    cursor: no-drop;
+}
+
+
+#next-btn {
+
+    outline: 0;
+    border: 0;
+    display: block;
+    margin: 10px auto;
+    margin-bottom: -3px;
+    background-color: blueviolet;
+    font-size: 17px;
+    color: white;
+    border-radius: 16px;
+    padding: 5px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.correct {
+    background-color: #9aeabc;
+}
+
+.incorrect {
+    background-color: #ff9393;
+}
+
+@media only screen and (max-width: 600px) {
+    #appContainer {
+        width: 100%;
+        max-width: 320px;
+        margin: 50px auto;
+        padding: 10px;
+    }
+
+    h1 {
+
+        font-size: 20px;
+    }
+
+    #questionElem {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .btn {
+
+        font-size: 11.5px;
+
+    }
+
+    #next-btn {
+
+        margin: 6px auto;
+        margin-bottom: 1.5px;
+        font-size: 13px;
+        padding: 3px 13px;
+
+    }
+
+
+
+
+
+}
